@@ -17,6 +17,8 @@ Since, it was not clear, which configuration it was asking, so I have taken mult
 - [Primary](/highly_durable_rds_db/subnet_groups/primary_subnet_group.png)
 - [Read Replica](/highly_durable_rds_db/subnet_groups/read_replica_subnet_group.png)
 
+_Note: I didn't notice but I have given the same name to subnets in both Primary and Read Replica, it is obviously not creating any issues, but I am just clearing it in case, it creates any confusion._
+
 #### Route Tables
 - [Primary](highly_durable_rds_db/route_tables/primary_route_table.png)
 - [Read Replica](highly_durable_rds_db/route_tables/read_replica_route_table.png)
